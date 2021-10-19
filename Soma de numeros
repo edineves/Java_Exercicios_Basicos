@@ -10,11 +10,11 @@ public class ex1 {
 		
 		System.out.println("Digite um numero o primeiro numero: ");
 		n1 = sc.nextInt();
-		System.out.println("Digite o segundo número: ");
+		System.out.println("Digite o segundo nÃºmero: ");
 		n2 = sc.nextInt();
 		
 		sum = (n1+n2);		
-		System.out.print("O resultado é: " +sum);			
+		System.out.print("O resultado Ã©: " +sum);			
 		
 		
 	}
