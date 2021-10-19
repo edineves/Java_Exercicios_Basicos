@@ -1,0 +1,17 @@
+/*Informar um saldo e imprimir o saldo com reajuste de 1%. 
+ */
+package listaDeExercicios;
+import java.util.*;
+public class Ex27 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int saldo;
+		float total;
+			
+		System.out.println("Digite o saldo R$ ");
+		saldo = sc.nextInt();
+		
+		System.out.println("O seu saldo atualizado com os rendimentos do periodo é R$ "+(saldo*1.01));
+		
+	}
+}

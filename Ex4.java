@@ -1,0 +1,21 @@
+// RESTO DA DIVISÃO ENTRE DOIS NUMEROS.
+
+package listaDeExercicios;
+import java.util.*;
+public class Ex4 {
+
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	float a,b,resto;
+	
+	System.out.println("Digite o número a ser dividido ");
+	a = sc.nextFloat();
+	System.out.println("Digite o número que ira dividir o primeiro ");
+	b = sc.nextFloat();
+	resto = (a%b);
+	
+	System.out.printf("O resto da Divisão entre " +a+ " e " +b+ " é = %.3f ", +resto);
+	
+	}
+
+}

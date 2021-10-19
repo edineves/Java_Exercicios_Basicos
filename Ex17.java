@@ -1,0 +1,26 @@
+/*
+ *Faça um programa para ler o saldo atual do cliente , os débito e credito. Após
+ *os dados calcular e escrever o saldo atual ( saldo apos os lançamentos).
+ */
+package listaDeExercicios;
+import java.util.*;
+public class Ex17 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		float atual, deb, cred, total;
+		
+		System.out.println("Digite o SALDO ATUAL de sua conta R$ ");
+		atual = sc.nextFloat();
+		System.out.println("Digite o total de CRÉDITOS do período R$ ");
+		cred = sc.nextFloat();
+		System.out.println("Digite o total de DÉBITOS R$ ");
+		deb = sc.nextFloat();
+		total = (atual+cred-deb);
+		
+		System.out.printf("Seu anterior era R$ %.2f ", +atual);
+		System.out.printf("\nApós os lançamentos seu saldo atual é R$ %.2f", +total);
+		
+	}
+
+}

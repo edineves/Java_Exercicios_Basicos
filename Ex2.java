@@ -1,0 +1,22 @@
+//PRODUTO ENTRE DOIS NUMEROS
+package listaDeExercicios;
+import java.util.*;
+public class Ex2 {
+
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	int a,b,prod;
+	
+	System.out.println("Digite um número: ");
+	a = sc.nextInt();
+	System.out.println("Digite outro número ");
+	b = sc.nextInt();
+	
+	prod = (a*b);
+	
+	System.out.printf("O resultado entre " +a+ " x " +b+ " é igual a %s: ", +prod);
+	
+
+	}
+
+}

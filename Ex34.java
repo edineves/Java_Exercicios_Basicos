@@ -1,0 +1,19 @@
+/*Escreva um programa dada uma variavel x com valor inteiro que é transformado 
+ * em outro valor conforme a regra:
+ *  se par , x = x/2.
+ *  se impar, x = x*x+1.
+ *  imprimir x: 
+ *  O sistema deverá parar quando x tiver o valor final igual a 1	
+ */ 
+package listaDeExercicios;
+import java.util.*;
+public class Ex34 {
+
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	
+	
+
+	}
+
+}
