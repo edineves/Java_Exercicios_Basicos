@@ -1,7 +1,7 @@
 /*
- * Um programa que receba o preÁo de custo de um produto e mostre o
-valor de venda. Sabe-se que o preÁo de custo receber· um acrÈscimo de
-acordo com um percentual informado pelo usu·rio. 
+ * Um programa que receba o pre√ßo de custo de um produto e mostre o
+valor de venda. Sabe-se que o pre√ßo de custo receber√° um acr√©scimo de
+acordo com um percentual informado pelo usu√°rio. 
  */
 package listaDeExercicios;
 import java.util.*;
@@ -17,7 +17,7 @@ public class Ex11 {
 	venda = sc.nextFloat();
 	novoPreco = (custo * venda)/100+custo;
 	
-	System.out.print("O percentual sobre a venda È "+venda+" %");
+	System.out.print("O percentual sobre a venda √© "+venda+" %");
 	System.out.print("e o valor passa a ser R$ " +novoPreco);
 	
 	}
