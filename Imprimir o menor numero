@@ -1,5 +1,5 @@
 /*
- * Entrar com dois números e imprimir o menor número, supondo que os números
+ * Entrar com dois nÃºmeros e imprimir o menor nÃºmero, supondo que os nÃºmeros
 diferentes sejam diferentes.
  */
 package listaDeExercicios;
@@ -12,14 +12,14 @@ public class Ex14 {
 	System.out.println("Digite o primeiro numero desejado: ");
 	n1 = sc.nextInt();
 	
-	System.out.println("Digite o segundo número: ");
+	System.out.println("Digite o segundo nÃºmero: ");
 	n2 = sc.nextInt();
 	
 	if (n1 < n2) {
-		System.out.println("O numero " +n1+ " é menor que " +n2);
+		System.out.println("O numero " +n1+ " Ã© menor que " +n2);
 	}
 	else {
-		System.out.println("O número é " +n1+ "é maior que ");
+		System.out.println("O nÃºmero Ã© " +n1+ "Ã© maior que ");
 	}
 	}
 	
