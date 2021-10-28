@@ -1,7 +1,7 @@
 /*
  * Ler o raio de um circulo, calcular e escrever a sua
-área. (pR²)
-Calculo: área= PI*(raio²)  
+Ã¡rea. (pRÂ²)
+Calculo: Ã¡rea= PI*(raioÂ²)  
  */
 package listaDeExercicios;
 import java.util.*;
@@ -16,7 +16,7 @@ public class Ex12 {
 	raio = sc.nextFloat();
 	area=(raio*raio)*PI;
 	
-	System.out.println("O raio do circulo é: "+area);
+	System.out.println("O raio do circulo Ã©: "+area);
 		
 	}
 
