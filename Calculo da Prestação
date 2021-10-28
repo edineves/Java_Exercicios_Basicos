@@ -1,7 +1,7 @@
 	/*
-	 * Uma loja está vendendo seus produtos em 6 (seis)
-	prestações sem juros. Faça um programa que receba um valor de uma compra
-	e mostre o valor das prestações.
+	 * Uma loja estÃ¡ vendendo seus produtos em 6 (seis)
+	prestaÃ§Ãµes sem juros. FaÃ§a um programa que receba um valor de uma compra
+	e mostre o valor das prestaÃ§Ãµes.
 	 */
 	package listaDeExercicios;
 	import java.util.*;
@@ -15,7 +15,7 @@
 		valor = sc.nextFloat();
 		prestacao=(valor / 6);
 		
-		System.out.printf("O produto adquirido custa "+ valor + " e poderá ser pago em até seis parcelas de R$ %.2f",+prestacao );
+		System.out.printf("O produto adquirido custa "+ valor + " e poderÃ¡ ser pago em atÃ© seis parcelas de R$ %.2f",+prestacao );
 		}
 	
 	}
