@@ -7,14 +7,14 @@ public class Ex2 {
 	Scanner sc = new Scanner(System.in);
 	int a,b,prod;
 	
-	System.out.println("Digite um número: ");
+	System.out.println("Digite um nÃºmero: ");
 	a = sc.nextInt();
-	System.out.println("Digite outro número ");
+	System.out.println("Digite outro nÃºmero ");
 	b = sc.nextInt();
 	
 	prod = (a*b);
 	
-	System.out.printf("O resultado entre " +a+ " x " +b+ " é igual a %s: ", +prod);
+	System.out.printf("O resultado entre " +a+ " x " +b+ " Ã© igual a %s: ", +prod);
 	
 
 	}
