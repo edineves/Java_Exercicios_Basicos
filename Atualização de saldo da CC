@@ -1,6 +1,6 @@
 /*
- *Faça um programa para ler o saldo atual do cliente , os débito e credito. Após
- *os dados calcular e escrever o saldo atual ( saldo apos os lançamentos).
+ *FaÃ§a um programa para ler o saldo atual do cliente , os dÃ©bito e credito. ApÃ³s
+ *os dados calcular e escrever o saldo atual ( saldo apos os lanÃ§amentos).
  */
 package listaDeExercicios;
 import java.util.*;
@@ -12,14 +12,14 @@ public class Ex17 {
 		
 		System.out.println("Digite o SALDO ATUAL de sua conta R$ ");
 		atual = sc.nextFloat();
-		System.out.println("Digite o total de CRÉDITOS do período R$ ");
+		System.out.println("Digite o total de CRÃ‰DITOS do perÃ­odo R$ ");
 		cred = sc.nextFloat();
-		System.out.println("Digite o total de DÉBITOS R$ ");
+		System.out.println("Digite o total de DÃ‰BITOS R$ ");
 		deb = sc.nextFloat();
 		total = (atual+cred-deb);
 		
 		System.out.printf("Seu anterior era R$ %.2f ", +atual);
-		System.out.printf("\nApós os lançamentos seu saldo atual é R$ %.2f", +total);
+		System.out.printf("\nApÃ³s os lanÃ§amentos seu saldo atual Ã© R$ %.2f", +total);
 		
 	}
 
