@@ -1,6 +1,6 @@
 /*
  * Ler o ano de nascimento de uma pessoa
- * e informar se poderá votar ou não nas Eleições de 2022 ,caso tenha mais de 16 anos.
+ * e informar se poderÃ¡ votar ou nÃ£o nas EleiÃ§Ãµes de 2022 ,caso tenha mais de 16 anos.
  */
 package listaDeExercicios;
 import java.util.*;
@@ -15,10 +15,10 @@ public class Ex16 {
 	apto = (2022 - ano);
 	
 	if (apto >= 16) {
-		System.out.println("Você está apto a votar nas próximas Eleiçõs");
+		System.out.println("VocÃª estÃ¡ apto a votar nas prÃ³ximas EleiÃ§Ãµs");
 		}
 	else {
-		System.out.println("Você ainda não possui 16 anos para impressão de seu Titulo de Eleitor.");
+		System.out.println("VocÃª ainda nÃ£o possui 16 anos para impressÃ£o de seu Titulo de Eleitor.");
    }
 	
   }
