@@ -6,13 +6,13 @@ public class Ex3 {
 	Scanner sc=new Scanner(System.in);
 	int a, b, div;
 	
-	System.out.println("Digite o primeiro número: ");
+	System.out.println("Digite o primeiro nÃºmero: ");
 	a = sc.nextInt();
-	System.out.println("Digite o segundo número ");
+	System.out.println("Digite o segundo nÃºmero ");
 	b = sc.nextInt();
 	div = a/b;
 	
-	System.out.printf("O resultado da Divisão entre " +a+ " e " +b+ " é igual a : %d ", +div);
+	System.out.printf("O resultado da DivisÃ£o entre " +a+ " e " +b+ " Ã© igual a : %d ", +div);
 	
 	}
 
