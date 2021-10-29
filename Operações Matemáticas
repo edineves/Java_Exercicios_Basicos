@@ -1,4 +1,4 @@
-// ESCREVER DOIS NUMEROS E NO FINAL MOSTRAR O RESULTADOS DE TOSAS AS OPERAÇÕES 
+// ESCREVER DOIS NUMEROS E NO FINAL MOSTRAR O RESULTADOS DE TOSAS AS OPERAÃ‡Ã•ES 
 package listaDeExercicios;
 import java.util.*;
 public class Ex5 {
@@ -6,9 +6,9 @@ public class Ex5 {
 	 Scanner sc = new Scanner(System.in);
 	 float n1,n2,soma,subtracao,prod,div,resto;
 	
-	 System.out.println("Digite o primeiro número ");
+	 System.out.println("Digite o primeiro nÃºmero ");
 	 n1 = sc.nextFloat();
-	 System.out.println("Digite o segundo número ");
+	 System.out.println("Digite o segundo nÃºmero ");
 	 n2 = sc.nextFloat();
 	 soma=(n1+n2); 
 	 subtracao=(n1-n2); 
@@ -16,7 +16,7 @@ public class Ex5 {
 	 div=(n1/n2); 
 	 resto=(n1%n2);
 	 
-	 System.out.printf("Os resultados entre n1 e n2 são: %.2f, %.2f, %.2f, %.2f ",+soma, +subtracao, +prod, +div, +resto);
+	 System.out.printf("Os resultados entre n1 e n2 sÃ£o: %.2f, %.2f, %.2f, %.2f ",+soma, +subtracao, +prod, +div, +resto);
 	 
 	}
 
