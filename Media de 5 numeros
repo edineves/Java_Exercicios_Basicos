@@ -1,4 +1,4 @@
-// Laços de Repetições FOR 
+// LaÃ§os de RepetiÃ§Ãµes FOR 
 
 package aula15;
 import java.util.*;
@@ -12,7 +12,7 @@ public class Review2 {
 	Scanner sc = new Scanner(System.in);
 		
 	for (edi=0; edi<5; edi++) {
-		System.out.println("Digite um número");
+		System.out.println("Digite um nÃºmero");
 		n = sc.nextInt();
 		soma = n + soma;
 	}
