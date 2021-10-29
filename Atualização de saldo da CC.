@@ -11,7 +11,7 @@ public class Ex27 {
 		System.out.println("Digite o saldo R$ ");
 		saldo = sc.nextInt();
 		
-		System.out.println("O seu saldo atualizado com os rendimentos do periodo é R$ "+(saldo*1.01));
+		System.out.println("O seu saldo atualizado com os rendimentos do periodo Ã© R$ "+(saldo*1.01));
 		
 	}
 }
