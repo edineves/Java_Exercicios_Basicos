@@ -1,7 +1,7 @@
-/*- a porcentagem do IPI a ser acrescido no valor das peças - 
-o código da peça 1, valor unitário da peça 1, quantidade de peças 1 - o código da peça 2, valor unitário da peça 2, quantidade de peças 2 
+/*- a porcentagem do IPI a ser acrescido no valor das peÃ§as - 
+o cÃ³digo da peÃ§a 1, valor unitÃ¡rio da peÃ§a 1, quantidade de peÃ§as 1 - o cÃ³digo da peÃ§a 2, valor unitÃ¡rio da peÃ§a 2, quantidade de peÃ§as 2 
 O algoritmo deve calcular o valor total a ser pago e apresentar o resultado. 
-Fórmula : (valor1*quant1 + valor2*quant2)*(IPI/100 + 1) 
+FÃ³rmula : (valor1*quant1 + valor2*quant2)*(IPI/100 + 1) 
  */
 package listaDeExercicios;
 import java.util.*;
@@ -11,10 +11,10 @@ public class Ex28 {
 		Scanner sc=new Scanner(System.in);
 		double valor, total;
 		int qtd; 
-	System.out.println("Digite a quantidade de peças ");
+	System.out.println("Digite a quantidade de peÃ§as ");
 	qtd = sc.nextInt();
 	
-	System.out.println("Digite o valor unitário R$ ");
+	System.out.println("Digite o valor unitÃ¡rio R$ ");
 	valor = sc.nextFloat();
 	
 	total = (qtd * valor) * 1.04;
