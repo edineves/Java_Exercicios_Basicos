@@ -1,4 +1,4 @@
-//Gasto de combustível por KM rodado.
+//Gasto de combustÃ­vel por KM rodado.
 
 package listaDeExercicios;
 import java.util.*;
@@ -10,7 +10,7 @@ public class Ex6 {
 	
 	System.out.println("Digite quantos KM o veiculo percorreu: ");
 	km = sc.nextFloat();
-	System.out.println("Quantos litros de combustível foram consumidos no trajeto: ");
+	System.out.println("Quantos litros de combustÃ­vel foram consumidos no trajeto: ");
 	li = sc.nextFloat();
 	
 	consumo = (km/li);
