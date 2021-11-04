@@ -1,9 +1,9 @@
-/*Escreva um programa dada uma variavel x com valor inteiro que È transformado 
+/*Escreva um programa dada uma variavel x com valor inteiro que √© transformado 
  * em outro valor conforme a regra:
  *  se par , x = x/2.
  *  se impar, x = x*x+1.
  *  imprimir x: 
- *  O sistema dever· parar quando x tiver o valor final igual a 1	
+ *  O sistema dever√° parar quando x tiver o valor final igual a 1	
  */ 
 package listaDeExercicios;
 import java.util.*;
